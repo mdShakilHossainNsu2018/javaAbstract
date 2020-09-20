@@ -2,8 +2,8 @@
 public class Test {
 
     public static void main(String[] args) {
-     Circle s1 = new Circle("hi" ,true, 5.5);
-           
+//       Shape s1 = new Circle() ;
+        Circle s1 = new Circle("red" ,true, 5.5);
 
         System.out.println("Color: " + s1.getColor());
         System.out.println("Filled: " + s1.isFilled());
